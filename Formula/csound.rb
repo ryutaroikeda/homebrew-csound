@@ -1,7 +1,7 @@
 require 'formula'
 class Csound < Formula
     homepage 'http://csound.github.io'
-    head 'https://github.com/ryutaroikeda/csound/csound.git', :branch => 'develop'
+    head 'https://github.com/ryutaroikeda/csound.git', :branch => 'develop'
     version '6.05.0'
 
   depends_on 'cmake' => :build
